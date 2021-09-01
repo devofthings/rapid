@@ -31,6 +31,9 @@ struct LandmarkDetail: View {
                         .font(.title)
                         .foregroundColor(.white)
                         .bold()
+                    
+                    // ToDo: After click call ModelData.save()
+                    
                     FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                 }
 

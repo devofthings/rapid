@@ -13,6 +13,9 @@ final class ModelData: ObservableObject {
 }
 
 
+// TODO: Save fuction
+
+
 // tries to load the json file
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
